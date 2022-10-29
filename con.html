@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>cantact information</title>
+	<style>
+		*{
+			  padding: 0;
+			  margin: 0;
+		}
+
+		form{
+			   background: rgb(250, 249,246);
+			   width: 600px;
+			   height: 450px;
+
+			   position: relative;
+			   top: 180px;
+			   left: 650px;
+
+         }
+         form input,textarea{
+         	     padding: 5px;
+         	     margin: 10px;
+         }
+         form input:hover{
+         	    border-color: cyan;
+         }
+          form textarea:hover{
+          	border-color: cyan;
+
+          }
+		form button{
+
+			   height: 40px;
+			   width: 150px;
+			   position: relative;
+			   top: -10px;
+			   left: 250px;
+			   border-color: seashell;
+			   background: ivory;
+			   text-align: center;
+			   border-radius: 25px;
+			   font-style: bold;
+			  }
+			  form button:hover{
+			  	   background: limegreen;
+			  	   
+			  }
+			  #get{
+			  	   font-size: 30px;
+			  	  
+			  }
+			  input{
+			  	  width: 300px;
+			  	  position: relative;
+			  	  left: 25px;
+			  }
+			  textarea{
+			  	  width: 300px;
+			  	  position: relative;
+			  	  left: 25px;
+			  }
+			  div{
+			  	    display: block;
+			  	    height: 450px;
+			  	   
+			  	    background: lightsalmon;
+			  	}
+			  	#imfor-box
+			  	{
+			  		display: block;
+			  	    height: 450px;
+			  	   width: 350px;
+			  	    background:seagreen;
+			  	    position: relative;
+			  	    top: -720px;
+			  	    left: 300px;
+			  	}
+			  	#set{
+			  	   font-size: 30px;
+                   position: relative;
+                   left: 10px;
+                   top: 8px;
+			  	   }
+			  	 #chat{
+			  	 	   position: relative;
+			  	 	   top: 20px;
+			  	 	   left: 10px;
+			  	 }
+			  #loc{
+			  	height: 25px;
+
+			  	  position: relative;
+			  	  top: 43px;
+			  	  left: 10px;
+			  	}
+			  	#add{
+			  		  position: relative;
+			  		  top: 10px;
+			  		  left: 50px;
+			  	}
+			  	#call{
+			  		height: 25px;
+			  		   position: relative;
+			  		   top: 38px;
+			  		   left: 10px;
+			  	}
+			  	#phone{
+			  		position: relative;
+			  		top: 10px;
+			  		left: 50px;
+			  	}
+			  	#mail{
+			  		height: 25px;
+			  		   position: relative;
+			  		   top: 45px;
+			  		   left: 10px;
+			  	}
+			  	#email{
+			  		   position: relative;
+			  		   top: 15px;
+			  		   left: 50px;
+			  	}
+			  	#website{
+			  		height: 25px;
+			  		  position: relative;
+			  		  top: 50px;
+			  		  left: 10px;
+			  	}
+			  	#web{
+			  		     position: relative;
+			  		     top:20px;
+			  		     left: 50px;
+			  	}
+			  	#from-set
+			  	{
+			  		  position: relative;
+			  		  left: 8px;
+			  	}
+
+			  .newblock{
+			  	      display: block;
+			  	     height: 550px;
+			  	      width: 100px;
+			  	      background: navajowhite;
+			  	      position: relative;
+			  	      top: -1400px;
+			  	      left: 100px;
+			  }
+			  .blocknew{
+			  	display: block;
+			  	     height: 130px;
+			  	      width: 1400px;
+			  	      background: navajowhite;
+			  	      position: relative;
+			  	      top: -1950px;
+			  	      left: 100px;
+
+			  }
+			  body{
+			  	  overflow: hidden;
+			  }
+	</style>
+</head>
+<body>
+	
+<form>
+	<p id="get">Get in Touch</p><br>
+	   <b id="from-set">FULL NAME</b><br>
+	     <input type="text" name="Name" placeholder="NAME" > 
+
+	   <br><b id="from-set"> E-MAIL ADDRESS</b><br>
+	    <input type="e-mail" name="E-mail" placeholder="E-MAIL">
+
+	    <br><b id="from-set">SUBJECT</b><br>
+	    <input type="text" name="SUBJECT" placeholder="SUBJECT">
+
+	    <br><b id="from-set">MESSAGE</b><br>
+	    <textarea name="Message" rows="5" cols="30" placeholder="MESSAGE"></textarea>
+
+	    <br><br><button>Send Message</button>
+</form>
+<div></div>
+<div id="imfor-box">
+<p id="set" style="color: white">Let's get in touch</p>
+    <p style="color:bisque" id="chat">I'm available for any suggestion or just<br> 
+    to hava a chat</p>
+
+  <img id="loc" src="location.gif">
+    <p id="add" style="color:bisque"><b>Address</b>:121 West 4th Street<br>
+                   Sangola Collage,Sangola<br>413307 Sangola</p>
+
+      <img src="call.gif" id="call">
+      <p style="color:bisque" id="phone"><b>Phone:</b>+91 702014xxxx</p>
+
+   <img src="mail.gif" id="mail">
+   <p style="color:bisque" id="email"><b>Email:</b>vaibhav7020@gmail.com</p> 
+     
+     <img src="website.gif" id="website">
+     <p style="color: bisque" id="web"><b>www.mysite.org.in</b></p>
+	
+</div>
+<div class="newblock">
+</div>
+<div class="blocknew">
+</div>
+
+</body>
+</html>
